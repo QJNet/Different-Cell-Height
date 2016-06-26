@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "QJTableViewCell.h"
 
 @interface ViewController ()
 
@@ -16,11 +17,29 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    self.tableView.backgroundColor = [UIColor redColor];
+
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
+    
+    return 30;
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
+    
+    static NSString *cellID = @"cell";
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:cellID];
+    if (cell == nil) {
+        cell = [[UITableViewCell alloc] initWithStyle:(UITableViewCellStyleSubtitle) reuseIdentifier:cellID];
+    }
+    
+    cell.textLabel.text = @"qjx";
+    cell.detailTextLabel.text = @"niubi";
+    cell.backgroundColor = [UIColor grayColor];
+    
+    return cell;
 }
 
 @end
