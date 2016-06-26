@@ -14,6 +14,7 @@
 		14D67FFA1D1F6B760004F2C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14D67FF91D1F6B760004F2C2 /* Assets.xcassets */; };
 		14D67FFD1D1F6B760004F2C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14D67FFB1D1F6B760004F2C2 /* LaunchScreen.storyboard */; };
 		14D680061D1F6BF10004F2C2 /* dog.m in Sources */ = {isa = PBXBuildFile; fileRef = 14D680051D1F6BF10004F2C2 /* dog.m */; };
+		14FDC4D31D1F72A8006D8F1F /* cart.m in Sources */ = {isa = PBXBuildFile; fileRef = 14FDC4D21D1F72A8006D8F1F /* cart.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		14D67FFE1D1F6B760004F2C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		14D680041D1F6BF10004F2C2 /* dog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dog.h; sourceTree = "<group>"; };
 		14D680051D1F6BF10004F2C2 /* dog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = dog.m; sourceTree = "<group>"; };
+		14FDC4D11D1F72A8006D8F1F /* cart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cart.h; sourceTree = "<group>"; };
+		14FDC4D21D1F72A8006D8F1F /* cart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cart.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +75,8 @@
 				14D67FED1D1F6B760004F2C2 /* Supporting Files */,
 				14D680041D1F6BF10004F2C2 /* dog.h */,
 				14D680051D1F6BF10004F2C2 /* dog.m */,
+				14FDC4D11D1F72A8006D8F1F /* cart.h */,
+				14FDC4D21D1F72A8006D8F1F /* cart.m */,
 			);
 			path = "Different Cell Height";
 			sourceTree = "<group>";
@@ -155,6 +160,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14FDC4D31D1F72A8006D8F1F /* cart.m in Sources */,
 				14D67FF51D1F6B760004F2C2 /* ViewController.m in Sources */,
 				14D67FF21D1F6B760004F2C2 /* AppDelegate.m in Sources */,
 				14D680061D1F6BF10004F2C2 /* dog.m in Sources */,
@@ -305,6 +311,7 @@
 				14D680031D1F6B760004F2C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
