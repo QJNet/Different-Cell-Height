@@ -7,17 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		14214C431D1FE7B80091B2D4 /* dog.m in Sources */ = {isa = PBXBuildFile; fileRef = 14214C421D1FE7B80091B2D4 /* dog.m */; };
+		14214C461D1FE7D30091B2D4 /* cat.m in Sources */ = {isa = PBXBuildFile; fileRef = 14214C451D1FE7D30091B2D4 /* cat.m */; };
 		14D67FEF1D1F6B760004F2C2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 14D67FEE1D1F6B760004F2C2 /* main.m */; };
 		14D67FF21D1F6B760004F2C2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 14D67FF11D1F6B760004F2C2 /* AppDelegate.m */; };
 		14D67FF51D1F6B760004F2C2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 14D67FF41D1F6B760004F2C2 /* ViewController.m */; };
 		14D67FF81D1F6B760004F2C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14D67FF61D1F6B760004F2C2 /* Main.storyboard */; };
 		14D67FFA1D1F6B760004F2C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14D67FF91D1F6B760004F2C2 /* Assets.xcassets */; };
 		14D67FFD1D1F6B760004F2C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14D67FFB1D1F6B760004F2C2 /* LaunchScreen.storyboard */; };
-		14FDC51D1D1F7EB9006D8F1F /* QJTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 14FDC51B1D1F7EB9006D8F1F /* QJTableViewCell.m */; };
-		14FDC51E1D1F7EB9006D8F1F /* QJTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 14FDC51C1D1F7EB9006D8F1F /* QJTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		14214C411D1FE7B80091B2D4 /* dog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dog.h; sourceTree = "<group>"; };
+		14214C421D1FE7B80091B2D4 /* dog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = dog.m; sourceTree = "<group>"; };
+		14214C441D1FE7D30091B2D4 /* cat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = cat.h; sourceTree = "<group>"; };
+		14214C451D1FE7D30091B2D4 /* cat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = cat.m; sourceTree = "<group>"; };
 		14D67FEA1D1F6B760004F2C2 /* Different Cell Height.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Different Cell Height.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		14D67FEE1D1F6B760004F2C2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		14D67FF01D1F6B760004F2C2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -28,9 +32,6 @@
 		14D67FF91D1F6B760004F2C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		14D67FFC1D1F6B760004F2C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		14D67FFE1D1F6B760004F2C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		14FDC51A1D1F7EB9006D8F1F /* QJTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QJTableViewCell.h; sourceTree = "<group>"; };
-		14FDC51B1D1F7EB9006D8F1F /* QJTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QJTableViewCell.m; sourceTree = "<group>"; };
-		14FDC51C1D1F7EB9006D8F1F /* QJTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QJTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,9 +73,10 @@
 				14D67FFB1D1F6B760004F2C2 /* LaunchScreen.storyboard */,
 				14D67FFE1D1F6B760004F2C2 /* Info.plist */,
 				14D67FED1D1F6B760004F2C2 /* Supporting Files */,
-				14FDC51A1D1F7EB9006D8F1F /* QJTableViewCell.h */,
-				14FDC51B1D1F7EB9006D8F1F /* QJTableViewCell.m */,
-				14FDC51C1D1F7EB9006D8F1F /* QJTableViewCell.xib */,
+				14214C411D1FE7B80091B2D4 /* dog.h */,
+				14214C421D1FE7B80091B2D4 /* dog.m */,
+				14214C441D1FE7D30091B2D4 /* cat.h */,
+				14214C451D1FE7D30091B2D4 /* cat.m */,
 			);
 			path = "Different Cell Height";
 			sourceTree = "<group>";
@@ -147,7 +149,6 @@
 			files = (
 				14D67FFD1D1F6B760004F2C2 /* LaunchScreen.storyboard in Resources */,
 				14D67FFA1D1F6B760004F2C2 /* Assets.xcassets in Resources */,
-				14FDC51E1D1F7EB9006D8F1F /* QJTableViewCell.xib in Resources */,
 				14D67FF81D1F6B760004F2C2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -159,9 +160,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14214C461D1FE7D30091B2D4 /* cat.m in Sources */,
 				14D67FF51D1F6B760004F2C2 /* ViewController.m in Sources */,
 				14D67FF21D1F6B760004F2C2 /* AppDelegate.m in Sources */,
-				14FDC51D1D1F7EB9006D8F1F /* QJTableViewCell.m in Sources */,
+				14214C431D1FE7B80091B2D4 /* dog.m in Sources */,
 				14D67FEF1D1F6B760004F2C2 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "QJTableViewCell.h"
+
 
 @interface ViewController ()
 
@@ -19,6 +19,7 @@
     [super viewDidLoad];
     
     self.tableView.backgroundColor = [UIColor redColor];
+    NSLog(@"什么玩意儿");
 
 }
 
